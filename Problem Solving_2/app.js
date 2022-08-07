@@ -42,3 +42,21 @@ function linearSearch(arr, val){
 }
 
 console.log(linearSearch(['a','b','c','d','c'],'b'));
+
+/** Problem: 3
+ * How to find big string and index from an array
+ **/
+
+function lonestString(names){
+   let longestWord = '';
+
+   for(let name of names){
+       if(name.length > longestWord.length){
+           longestWord = name;
+       }
+   }
+
+   return [longestWord, names.indexOf(longestWord)];
+}
+
+console.log(lonestString(['Chandan Oja','Mahafuj Hasan Shohag','Omar Frauk','Nur Mohammaad Rayhan']));
