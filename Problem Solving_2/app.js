@@ -20,4 +20,25 @@ let position = sentence.search(/chandans/i);
 //console.log(position);
 position = position >= 0 ? position : "not found";
 
-console.log(position);
+console.log(position); 
+
+
+//problem 2
+/*
+ * input: linearSearch(['a','b','c','d','c'],'c')
+ * output: 2 or 'not found!'
+ * problem: implements linearSearch() function
+*/
+
+function linearSearch(arr, val){
+    const length = arr.length;
+     for(let i = 0; i < length; i++){
+         if(arr[i] === val){
+            return i ;
+         }
+     }
+
+     return 'not found';
+}
+
+console.log(linearSearch(['a','b','c','d','c'],'b'));
