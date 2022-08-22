@@ -9,3 +9,4 @@ while (i > -1) {
 }
 
 console.log(myArray)
+
