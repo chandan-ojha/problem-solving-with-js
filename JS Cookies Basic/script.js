@@ -28,7 +28,7 @@ function getCookie(cname)
 
     }
   }
-  return " ";
+  return "";
 }
 
 //Check a Cookie
