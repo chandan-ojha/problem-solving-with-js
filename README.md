@@ -1,6 +1,6 @@
 <h4 align="center"> !!! Basically, this repository create to deploy my JavaScript problem-solving practice !!! </h4>
 
-<h5>!!! Problem Solved !!!</h5>
+<h5><b>!!! Problem Solved !!!</b></h5>
 
 <p> 1) Basic Problem Solved (Problem Solving_1, Problem Solving_2)</p>
 <p> 2) Callback Pattern | Asynchronous JavaScript (Problem Solving_3)</p>
