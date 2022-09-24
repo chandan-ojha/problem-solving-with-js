@@ -21,4 +21,5 @@
   <li>Use Recursion to Create a Countdown</li>
   <li>Use Recursion to Create a Range of Numbers</li>
   <li>Prevent Object Mutation</li>
+  <li>Use Destructuring Assignment to Pass an Object as a Function's Parameters</li>
 </ol>
